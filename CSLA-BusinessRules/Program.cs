@@ -12,6 +12,6 @@ var dp = provider.GetRequiredService<IDataPortal<BusinessClass>>();
 var bo = dp.Create();
 
 Console.WriteLine("Setting primary property");
-bo.Primary = "test";
+bo.Primary = "test"; // rule will be executed
 Console.WriteLine("Setting additional input property");
-bo.AdditionalInput = "test2";
+bo.AdditionalInput = "test2"; // rule will not be executed
