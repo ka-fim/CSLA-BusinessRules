@@ -14,4 +14,4 @@ var bo = dp.Create();
 Console.WriteLine("Setting primary property");
 bo.Primary = "test"; // rule will be executed
 Console.WriteLine("Setting additional input property");
-bo.AdditionalInput = "test2"; // rule will not be executed
+bo.AdditionalInput = "test2"; // rule will be executed
