@@ -18,7 +18,7 @@ public class BusinessClass : BusinessBase<BusinessClass>
     public string AdditionalInput
     {
         get => GetProperty(AdditionalInputProperty);
-        set => LoadProperty(AdditionalInputProperty, value);
+        set => SetProperty(AdditionalInputProperty, value);
     }
 
     protected override void AddBusinessRules()
